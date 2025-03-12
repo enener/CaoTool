@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON转TXT工具</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div id="header-container"></div>
+    
+    <div class="tool-container container py-4">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="input-group h-100">
+                    <textarea id="jsonInput" class="form-control" placeholder="在此粘贴JSON内容..." style="height: 400px"></textarea>
+                </div>
+                <button onclick="convertJSON()" class="btn btn-primary mt-3 w-100">转换</button>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="result-box h-100 bg-light p-3 rounded">
+                    <pre id="txtOutput" class="m-0" style="white-space: pre-wrap; height: 400px"></pre>
+                </div>
+                <button onclick="copyResult()" class="btn btn-success mt-3 w-100">复制结果</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+    
+    <script src="../loadTemplates.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

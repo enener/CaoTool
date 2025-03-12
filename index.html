@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多功能工具集合</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header placeholder -->
+    <div id="header-container"></div>
+
+    <div class="container mt-4">
+        <header class="text-center mb-5">
+            <h1 class="display-4">多功能工具集合</h1>
+            <p class="lead text-muted">为您提供高效便捷的文本处理解决方案</p>
+        </header>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">📝 英文短句格式化工具</h5>
+                        <p class="card-text text-secondary">自动规范英文大小写、标点格式，优化段落排版</p>
+                        <a href="format-tool/index.html" class="btn btn-primary stretched-link">立即使用</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">📦 JSON转TXT工具</h5>
+                        <p class="card-text text-secondary">将JSON数据结构转换为层次分明的纯文本格式</p>
+                        <a href="./json-to-txt/index.html" class="btn btn-primary stretched-link">立即使用</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">📖 Markdown实时预览工具</h5>
+                        <p class="card-text text-secondary">实时预览Markdown文档的渲染效果，支持语法高亮</p>
+                        <a href="markdown-preview/index.html" class="btn btn-primary stretched-link">立即使用</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">⏎ 换行符清除工具</h5>
+                        <p class="card-text text-secondary">清除文本中所有换行符，合并多余空格</p>
+                        <a href="./linebreak-remover/index.html" class="btn btn-primary stretched-link">立即使用</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">🖼️ 图片转WebP格式工具</h5>
+                        <p class="card-text text-secondary">将常见图片格式转换为WebP格式，支持质量调整和预览对比</p>
+                        <a href="./image-to-webp/index.html" class="btn btn-primary stretched-link">立即使用</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">🎡 情绪轮盘识别工具</h5>
+                        <p class="card-text text-secondary">可视化情绪分类工具，支持三级情绪细分选择</p>
+                        <a href="./feelings-wheel/index.html" class="btn btn-primary stretched-link">立即使用</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-5 py-4 text-center text-muted">
+            <p>更多实用工具正在开发中，敬请期待！</p>
+        </footer>
+
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="format-tool/script.js"></script>
+    <!-- Footer placeholder -->
+    <div id="footer-container"></div>
+
+    <script src="loadTemplates.js"></script>
+</body>
+</html>
