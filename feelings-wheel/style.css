@@ -1,0 +1,29 @@
+/* 情绪轮盘专用样式 */
+#wheel-container {
+    position: relative;
+    margin: 20px auto;
+}
+
+.emotion-segment {
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.emotion-segment:hover {
+    opacity: 0.8;
+}
+
+.emotion-label {
+    font-size: 12px;
+    fill: white;
+    pointer-events: none;
+}
+
+#selection-detail {
+    min-height: 80px;
+}
+
+/* 颜色主题 */
+.primary-color { stop-color: #4a90e2; }
+.secondary-color { stop-color: #7c4dff; }
+.tertiary-color { stop-color: #ff6f00; }
