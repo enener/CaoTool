@@ -6,20 +6,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
+                <div class="d-flex">
+                    <select id="langSelect" class="form-select form-select-sm" data-i18n="common.languageSwitcher">
+                        <option value="en" data-i18n="languages.english">English</option>
+                        <option value="zh" data-i18n="languages.chinese">中文</option>
+                        <option value="ja" data-i18n="languages.japanese">日本語</option>
+                    </select>
+                </div>
                 <li class="nav-item">
-                    <a class="nav-link" href="/format-tool/" data-i18n="tools.formatter">英文格式化工具</a>
+                    <a class="nav-link" href="/format-tool/">英文格式化工具</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/feelings-wheel/" data-i18n="tools.feelingsWheel">情绪轮盘</a>
+                    <a class="nav-link" href="/feelings-wheel/">情绪轮盘</a>
                 </li>
             </ul>
-            <div class="d-flex">
-                <select id="langSelect" class="form-select form-select-sm" data-i18n="common.languageSwitcher">
-                    <option value="en" data-i18n="languages.english">English</option>
-                    <option value="zh" data-i18n="languages.chinese">中文</option>
-                    <option value="ja" data-i18n="languages.japanese">日本語</option>
-                </select>
-            </div>
         </div>
     </div>
 </nav>
