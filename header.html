@@ -6,9 +6,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="/format-tool/">英文格式化工具</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        文本处理
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/format-tool/">英文格式化</a></li>
+                        <li><a class="dropdown-item" href="/json-to-txt/">JSON转TXT</a></li>
+                        <li><a class="dropdown-item" href="/linebreak-remover/">换行符清除</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        格式转换
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/markdown-preview/">Markdown预览</a></li>
+                        <li><a class="dropdown-item" href="/image-to-webp/">图片转WebP</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/feelings-wheel/">情绪轮盘</a>
